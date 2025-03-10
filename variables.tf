@@ -32,7 +32,3 @@ variable "tags" {
   description = "Tags to identify resources in billing mostly"
   default     = {}
 }
-
-variable "charts" {
-  type = any
-}
